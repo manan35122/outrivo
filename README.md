@@ -3,7 +3,7 @@
 AI sales and outreach engine: finds leads, writes personalised outreach, and tracks the pipeline. Built for the **Design to Production: Agentic AI Hackathon** (Track 05, GrowthPilot).
 
 
-- **Live website:** *TODO (Vercel URL)*
+- **Live website:** https://outrivo.vercel.app/
 - **Agent API base URL:** [https://outrivo.onrender.com](https://outrivo.onrender.com) (`GET /health`, `POST /chat`)
 - **Demo video:** *TODO*
 
