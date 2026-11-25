@@ -5,7 +5,6 @@ AI sales and outreach engine: finds leads, writes personalised outreach, and tra
 
 - **Live website:** https://outrivo.vercel.app/
 - **Agent API base URL:** [https://outrivo.onrender.com](https://outrivo.onrender.com) (`GET /health`, `POST /chat`)
-- **Demo video:** *TODO*
 
 
 ## Build progress
@@ -240,9 +239,6 @@ python scripts/run_benchmark.py https://outrivo.onrender.com --repeat 3  # consi
 
 Even errors keep the chat shape (`reply`, `tool_calls`, `tokens`, plus an `error` field): `422` invalid body, `413` too large, `429` rate limited, `200` with `error: "agent_error"` if the model is down, and `200` with `blocked` set when the budget guard refuses.
 
-## Demo
-
-_TODO: add demo GIF (`docs/demo.gif`)._
 
 ## Team
 
